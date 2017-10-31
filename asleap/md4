@@ -1,1 +1,0 @@
-void md4(unsigned char *from, int from_len, unsigned char *to) {
