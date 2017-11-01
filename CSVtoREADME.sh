@@ -40,9 +40,8 @@ echo '### Denial of Service' >> README_tmp.md
 grep ';DoS;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 
 echo '### Encryption Attack' >> README_tmp.md
-echo '#### WEP' >> README_tmp.md
+echo '#### WEP/WPA/WPA2' >> README_tmp.md
 grep ';WEP' wifi-arsenal.csv_tmp | sort >> README_tmp.md
-echo '#### WPA/WPA2' >> README_tmp.md
 grep ';WPA/WPA2' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 echo '#### WPS' >> README_tmp.md
 grep ';WPS' wifi-arsenal.csv_tmp | sort >> README_tmp.md
@@ -101,7 +100,7 @@ echo '* there is no description of projects so that you have to click every bad-
 echo >> README.md
 echo 'As I had to go through all the projects anyway I tried to fix this limitations and created a csv file which can be transformed into a README.md easily (shell-script inlcuded). And here it is. I hope it will help somebody. The categorization is not always easy/accurate (going through 500 projects was exhausting, concentration was gone eventually!). Please feel free to fix or add things and submit a pull request!' >> README.md
 echo >> README.md
-echo 'Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and not added here.' >> README.md
+echo 'Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and were not added here yet.' >> README.md
 
 echo '## Table of Contents' >> README.md
 

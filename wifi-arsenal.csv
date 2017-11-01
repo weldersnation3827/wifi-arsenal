@@ -140,10 +140,10 @@ IndoorPositionr;https://github.com/otherview/IndoorPositionr/;indoor positioning
 Isniff-GPS;https://github.com/hubert3/iSniff-GPS/;Passive sniffing tool for capturing and visualising WiFi location data disclosed by iOS devices;InfoGath;;;
 itamae;https://github.com/wraith-wireless/itamae/;802.11 radiotap and MPDU parser ;Lib;;;
 JamWiFi;https://github.com/unixpickle/JamWiFi/;A GUI, easy to use WiFi network jammer for Mac OS X;Attack;DoS;;
-karma;https://github.com/atimorin/karma/;KARMA Attacks Radioed Machines Automatically (KARMA);Attack;;;Note
+karma;https://github.com/atimorin/karma/;KARMA Attacks Radioed Machines Automatically (KARMA);Attack;RogueAP;;Note
 killosx;https://github.com/d4rkcat/killosx/;use the Apple CoreText exploit (CVE-2012-3716) and launch an AP to affect all devices within wifi range ;Attack;;;
 KisMac2;https://github.com/IGRSoft/KisMac2/;free, open source wireless stumbling and security tool for Mac OS X;Defend;;;
-kismet;https://github.com/kismetwireless/kismet/;wireless network detector, sniffer, and intrusion detection system;Defend;;;
+kismet;https://github.com/kismetwireless/kismet/;wireless network detector, sniffer, and intrusion detection system;Defend;;;Note
 kismet-deauth-wpa2-handshake-plugin;https://github.com/ph4r05/kismet-deauth-wpa2-handshake-plugin/;Python plugin for Kismet to perform deauthentication to collect WPA2 handshakes;Attack;Encryption;WPA/WPA2;
 Kismet-to-KML;https://github.com/exp/Kismet-to-KML/;Converts kismet gps log files into kml files;Misc;;;
 kismet2earth;https://code.google.com/archive/p/kismet2earth/;Set of utilities that convert from Kismet logs to Google Earth .kml format;Misc;;;
@@ -291,7 +291,7 @@ TCP-SeqNum;https://github.com/bwoolf1122/TCP-SeqNum/;Means to sniff 802.11 traff
 Uniband-installer;https://github.com/wi-fi-analyzer/uniband-installer/;Wireless monitoring framework to help using kismet dumpcap and horst (installation files);Monitoring;;;
 uploadwpa;https://github.com/Alf-Alfa/uploadwpa/;This module will upload a wpa handshake from a single capture file to an online hash cracker site;Attack;Encryption;WPA/WPA2;
 VX;https://github.com/hellais/VX/;It might be fun to play tricks on somebody trying to crack your WEP protected router;Misc;;;
-waidps;https://github.com/SYWorks/waidps/;Wireless Auditing, Intrusion Detection & Prevention System;Defend;;;
+waidps;https://github.com/SYWorks/waidps/;Wireless Auditing, Intrusion Detection & Prevention System;Defend;;;Note
 wallofshame;https://github.com/0x0d/wallofshame/;Multi protocol sniffer, created for ChaosConstruction conference HackSpace;Attack;Sniff;;
 WAPMap;https://github.com/pan0pt1c0n/WAPMap/;parse Kismet .netxml output and then return a CSV file that can be uploaded to Google Maps Engine to map WEP or OPEN networks;Attack;Wardriving;;
 warcarrier;https://github.com/0x90/warcarrier/;An NCURSES-based, all-in-one instrument panel for professional Wardriving;Attack;Wardriving;;
@@ -304,7 +304,7 @@ whoishere;https://github.com/hkm/whoishere.py/;WIFI Client Detection - Identify 
 Wi-door;https://github.com/Vivek-Ramachandran/wi-door/;Wi-Fi Backdoors;Attack;;;
 Wi-finder;https://github.com/romebop/wi-finder/;Wi-Fi hotspot finder;Location;;;
 wi5-aggregation;https://github.com/Wi5/wi5-aggregation/;implementing and testing 802.11 frame aggregation (A-MPDU) ;Misc;;;
-WIDSTT;https://github.com/0x90/wifi-arsenal/blob/master/Wireless%20IDS%20Tool.py/;Wireless Intrusion Detection Systems Testing Tool;Defend;;;
+WIDSTT;https://github.com/0x90/wifi-arsenal/blob/master/Wireless%20IDS%20Tool.py/;Wireless Intrusion Detection Systems Testing Tool – test your WIDS by performing attacks;Attack;;;
 wifi;https://github.com/rockymeza/wifi/;[unmaintained] WiFi tools for linux http://pypi.python.org/pypi/wifi;Misc;;;
 wifi_based_population_estimator;https://github.com/siriuxy/wifi_based_population_estimator/;This is a piece of glueware that sticks up different components from hardware detection to real-time web display.;Misc;;;
 wifi_beacons;https://github.com/abnarain/wifi_beacons/;;;;;
@@ -384,7 +384,7 @@ wireless;https://github.com/joshvillbrandt/wireless/;dead simple, cross-platform
 wireless_half-mini;https://github.com/toleda/wireless_half-mini/;macOS Airport Half Mini (WiFi and Bluetooth);Misc;;;
 wireless_RSSI;https://github.com/agnostino/wireless_RSSI/;;Misc;;;
 Wireless-forensics-framework;https://github.com/nipunjaswal/Wireless-forensics-framework/;Automated Wireless Penetration Testing and Carrying out Wireless Forensics in Python;Defend;;;
-Wireless-ids;https://github.com/SYWorks/wireless-ids/;Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets;Defend;;;
+Wireless-ids;https://github.com/SYWorks/wireless-ids/;Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets;Defend;;;Note
 Wireless-info;https://github.com/wlanslovenija/wireless-info/;Obtain information about wireless interfaces from MAC80211 stack;Attack;Sniff;;
 Wireless-radar;https://github.com/stef/wireless-radar/;DF and other tools to explore a 2.4GHz environment;Attack;Sniff;;
 Wireless-regdb;https://github.com/0x90/wireless-regdb/;plain text version of the regulatory database file;info;;;
