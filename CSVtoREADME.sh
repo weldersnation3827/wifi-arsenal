@@ -15,6 +15,7 @@
 
 # Usage: Start script and let wifi-arsenal.csv be transformed.
 # The generated file is saved as README.md and can be commited afterwards.
+# The gh-md-toc script included in the repo is needed for this script to work!
 
 # create copy of .csv
 cp wifi-arsenal.csv wifi-arsenal.csv_tmp
@@ -69,6 +70,15 @@ grep ';InfoGath;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 echo '## Defence/Detection' >> README_tmp.md
 grep ';Defend;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 
+echo '## Libraries/General Purpose Tools' >> README_tmp.md
+grep ';Lib;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
+
+echo '## Visualization' >> README_tmp.md
+grep ';Visual;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
+
+echo '## Localisation' >> README_tmp.md
+grep ';Location;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
+
 echo '## Configuration/setup' >> README_tmp.md
 grep ';Config;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 
@@ -90,6 +100,9 @@ echo '* the list lacks a categorization of projects' >> README.md
 echo '* there is no description of projects so that you have to click every bad-named project to evaluate usefullness' >> README.md
 echo >> README.md
 echo 'As I had to go through all the projects anyway I tried to fix this limitations and created a csv file which can be transformed into a README.md easily (shell-script inlcuded). And here it is. I hope it will help somebody. The categorization is not always easy/accurate (going through 500 projects was exhausting, concentration was gone eventually!). Please feel free to fix or add things and submit a pull request!' >> README.md
+echo >> README.md
+echo 'Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and not added here.' >> README.md
+
 echo '## Table of Contents' >> README.md
 
 # set executable rights to toc-generator

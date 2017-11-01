@@ -6,6 +6,8 @@ This project is based on the great work of [0x90/wifi-arsenal](https://github.co
 * there is no description of projects so that you have to click every bad-named project to evaluate usefullness
 
 As I had to go through all the projects anyway I tried to fix this limitations and created a csv file which can be transformed into a README.md easily (shell-script inlcuded). And here it is. I hope it will help somebody. The categorization is not always easy/accurate (going through 500 projects was exhausting, concentration was gone eventually!). Please feel free to fix or add things and submit a pull request!
+
+Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and not added here.
 ## Table of Contents
 
 * [General WiFi Information](#general-wifi-information)
@@ -24,6 +26,9 @@ As I had to go through all the projects anyway I tried to fix this limitations a
   * [Miscellaneous Attacking Tools](#miscellaneous-attacking-tools)
 * [Information Gathering](#information-gathering)
 * [Defence/Detection](#defencedetection)
+* [Libraries/General Purpose Tools](#librariesgeneral-purpose-tools)
+* [Visualization](#visualization)
+* [Localisation](#localisation)
 * [Configuration/setup](#configurationsetup)
 * [Monitoring](#monitoring)
 * [Miscellaneous/not sorted :)](#miscellaneousnot-sorted-)
@@ -41,6 +46,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11) - IEEE802.11 site of Wikipedia
 ## Noteworthy Tools of Different Categories
 * [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng/) - WiFi security auditing tools suite
+* [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon/) - This is a multi-use bash script for Linux systems to audit wireless networks
 * [karma](https://github.com/atimorin/karma/) - KARMA Attacks Radioed Machines Automatically (KARMA)
 * [mdk3_6.1](https://github.com/ytisf/mdk3_6.1/) - A fork and modification of the original MDK3 
 * [pyrit](https://github.com/JPaulMora/Pyrit/) - The famous WPA precomputed cracker, Migrated from Google
@@ -137,10 +143,13 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wpe-parse](https://github.com/sa7mon/wpe-parse/) - This is a simple parsing script to convert output from hostapd-wpe (which makes John the Ripper-formatted logs) to Hashcat format. 
 ### Injection
 * [Aggr-inject](https://github.com/rpp0/aggr-inject/) - Remote frame injection PoC by exploiting a standard compliant A-MPDU aggregation vulnerability in 802.11n networks. 
+* [Aircrack-db](https://github.com/SaltwaterC/aircrack-db/) - A list of wireless cards tested with the dual-card injection test and in the field
 * [airown](https://github.com/sh0/airown/) - Packet injection tool
 * [airpwn](https://github.com/M0Rf30/airpwn/) - A generic packet injection tool for 802.11 networks.
 * [Airpwn-ng](https://github.com/ICSec/airpwn-ng/) - new and improved version of airpwn
+* [Iitis-generator](https://github.com/iitis/iitis-generator/) - Software for distributed statistical evaluation of IEEE 802.11 wireless networks using Linux mac80211 packet injection facility
 * [libfcap](https://github.com/teddyyy/libfcap/) - Library for manipulate 802.11 frame in monitor mode
+* [libmoep](https://github.com/0x90/wifi-arsenal/tree/master/libmoep-1.1/) - allows for frame injection on monitor mode devices with per-frame radiotap options such as TX rate / MCS index and RTS/CTS protection
 * [Lorcon-examples](https://github.com/OpenSecurityResearch/lorcon_examples/) - Various examples and patches for LORCON
 * [lorcon](https://code.google.com/archive/p/lorcon/) - A common injection and control library for wireless packet crafting
 * [lrc](https://github.com/0x0d/lrc/) - Fast Wi-Fi hijacker in C, based on AirPwn ideas and LORCON
@@ -210,7 +219,6 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [rifsniff](https://github.com/dappiu/rifsniff/) - Remote Interface Sniffer
 * [ScapyGELFtoGraylog2](https://github.com/wouterbudding/ScapyGELFtoGraylog2/) - sniff some 802.11 packages and send the date and MAC with GELF UDP to Graylog2
 * [Scapy-wireless-scanner](https://github.com/rahilsharma/Scapy-wireless-scanner/) - Simple wireless scanner built using Scapy Library
-* [sniffmypackets](https://github.com/catalyst256/sniffMyPackets/) - canari package for pcap file analysis within Maltego
 * [SSIDentity](https://github.com/SamClarke2012/SSIDentity/) - Passive sniffing of 802.11 probe requests, stored in a central database.
 * [TCP-SeqNum](https://github.com/bwoolf1122/TCP-SeqNum/) - Means to sniff 802.11 traffic and obtain TCP session info using netfiter_queue. Use that data to construct a packet in scappy. 
 * [wallofshame](https://github.com/0x0d/wallofshame/) - Multi protocol sniffer, created for ChaosConstruction conference HackSpace
@@ -225,11 +233,13 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wireless-radar](https://github.com/stef/wireless-radar/) - DF and other tools to explore a 2.4GHz environment
 * [Wireless-Sniffer](https://github.com/gauravpatwardhan/Wireless-Sniffer/) - A 802.11 wireless sniffer tool (c-based)
 ### Wardriving
+* [MappingWirelessNetworks](https://github.com/jeffThompson/MappingWirelessNetworks/) - Code, data, and (possibly) schematics for recording wireless network data around a city
 * [WAPMap](https://github.com/pan0pt1c0n/WAPMap/) - parse Kismet .netxml output and then return a CSV file that can be uploaded to Google Maps Engine to map WEP or OPEN networks
 * [warcarrier](https://github.com/0x90/warcarrier/) - An NCURSES-based, all-in-one instrument panel for professional Wardriving
 * [WifiScanAndMap](https://github.com/cyberpython/WifiScanAndMap/) - A Linux Python application to create maps of 802.11 networks
 ### Miscellaneous Attacking Tools
 * [80211scrambler](https://github.com/travisgoodspeed/80211scrambler/) - small collection of tools in Verilog for working
+* [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon/) - This is a multi-use bash script for Linux systems to audit wireless networks
 * [airodump_mar_attack](https://github.com/maroviher/airodump_mar_attack/) - maroviher attack
 * [AirPirate](https://github.com/gat3way/AirPirate/) - Android 802.11 pentesting tool 
 * [airspf](https://github.com/davll/airspf/) - AirSpoof/Airpwn ??
@@ -278,6 +288,8 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Defence/Detection
 * [badkarma](https://github.com/atechdad/badkarma/) - badKarma is a simple python script used to detect and disrupt rouge access points/honeypots using the karma attack such as the wifi pineapple
 * [EvilAP_Defender](https://github.com/moha99sa/EvilAP_Defender/) - Protect your Wireless Network from Evil Access Points
+* [huntpineapples](https://github.com/0x90/wifi-arsenal/tree/master/huntpineapples/) - WiFi Pineapple hunter from DC23
+* [KisMac2](https://github.com/IGRSoft/KisMac2/) - free, open source wireless stumbling and security tool for Mac OS X
 * [kismetclient](https://github.com/PaulMcMillan/kismetclient/) - A Python client for the Kismet server protocol
 * [kismet](https://github.com/kismetwireless/kismet/) - wireless network detector, sniffer, and intrusion detection system
 * [kismon](https://github.com/Kismon/kismon/) - A GUI client for kismet
@@ -286,11 +298,61 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [RogueDetection](https://github.com/baggybin/RogueDetection/) - Rogue Access Point Detection and WIDS
 * [waidps](https://github.com/SYWorks/waidps/) - Wireless Auditing, Intrusion Detection & Prevention System
 * [Wave](https://github.com/hkparker/Wave/) - 802.11 IDS, visualizer, and analytics platform for the web
+* [WIDSTT](https://github.com/0x90/wifi-arsenal/blob/master/Wireless%20IDS%20Tool.py/) - Wireless Intrusion Detection Systems Testing Tool
 * [Wireless-forensics-framework](https://github.com/nipunjaswal/Wireless-forensics-framework/) - Automated Wireless Penetration Testing and Carrying out Wireless Forensics in Python
 * [Wireless-ids](https://github.com/SYWorks/wireless-ids/) - Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets
 * [wmd](https://github.com/securestate/wmd/) - simple solution for the detection and location of Rogue Access Points.
 * [wraith](https://github.com/wraith-wireless/wraith/) - Wireless Reconnaissance And Intelligent Target Harvesting
 * [wspy](https://github.com/Nan-Do/wspy/) - python tool to create a wireless ids it detects which clients are connected to a network to allow the creation of usage patterns of a netowrk by the clients
+## Libraries/General Purpose Tools
+* [80211p_raw](https://github.com/allanmatthew/80211p_raw/) - Raw socket utilities for 802.11p transmission
+* [80211_raw](https://github.com/MinimumLaw/80211_raw/) - Sender and receiver for WiFi (IEEE802.11) network with raw sockets 
+* [banjax](https://github.com/0x90/banjax/) - library for low-level programming of IEEE 802.11 wireless network interfaces on the GNU/Linux operating system
+* [dot11er](https://github.com/timow/dot11er/) - Some tools for playing with IEEE802.11
+* [Frame-utils.js](https://github.com/rhodey/frame-utils.js/) - A collection of utilities for processing streams of 80211 frames and radiotap headers.
+* [Gopacket-80211](https://github.com/dutchcoders/gopacket-80211/) - Extra gopacket layers for Radiotap and 802.11 (has been integrated in Gopacket) 
+* [itamae](https://github.com/wraith-wireless/itamae/) - 802.11 radiotap and MPDU parser 
+* [Libairpcap-nl](https://github.com/hbock/libairpcap-nl/) - Implementation of AirPcap library, targetting the NL80211 protocol. 
+* [libuwifi](https://github.com/br101/libuwifi/) - C library for parsing, generating and analyzing Wifi (WLAN 802.11) frames in userspace and related functions
+* [packetparser](https://github.com/flupzor/packetparser/) - IEEE 802.11 packetparser
+* [pcap2xml](https://github.com/securitytube/pcap2xml/) - Convert 802.11 Packet Traces to XML and SQLITE Format 
+* [PCS](https://github.com/gvnn3/PCS/) - set of Python modules and objects that make building network protocol code easier for the protocol developer
+* [Probr-core](https://github.com/probr/probr-core/) - The core-component for generic WiFi tracking: remote device management, packet capturing, packet storage
+* [Py802.11](https://code.google.com/archive/p/py80211/) - Python code for parsing and working with 80211 packets
+* [py80211](https://github.com/0x90/py80211/) - Suite of libraries for parsing 802.11 packets as well as managing wireless cards and working with 802.11 information
+* [PyRIC](https://github.com/wraith-wireless/pyric/) - PyRIC (is a Linux only) library providing wireless developers and pentesters the ability to identify, enumerate and manipulate their system's wireless cards programmatically in Python.
+* [PyRIC](https://github.com/wraith-wireless/PyRIC/) - Python wireless library for Linux
+* [python3-wifi](https://github.com/llazzaro/python3-wifi/) - Python WiFi is a Python module that provides read and write access to a wireless network card's capabilities using the Linux Wireless Extensions.
+* [Python-radiotap](https://github.com/bcopeland/python-radiotap/) - Tiny lib for parsing radiotap/802.11 headers in python 
+* [python-wifi](https://pypi.python.org/pypi/python-wifi/) - Python WiFi is a Python module that provides read and write access to a wireless network card's capabilities using the Linux Wireless Extensions.
+* [Qca-swiss-army-knife](https://github.com/mcgrof/qca-swiss-army-knife/) - hosts a set of utilities that we use to debug / help with our driver development
+* [Radioparse](https://github.com/AlexanderSelzer/Radioparse/) - A WiFi protocol parser that can be used with radiotap packets and node-pcap
+* [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library
+* [Wifi-scan](https://github.com/bmegli/wifi-scan/) - A nl80211 C/C++ library for monitoring signal strength of WiFi networks
+* [wireless](https://github.com/joshvillbrandt/wireless/) - dead simple, cross-platform Python library to connect to wireless networks
+## Visualization
+* [speccy](https://github.com/bcopeland/speccy/) - Visualization tool for ath spectral scan
+* [Wifi-contour](https://github.com/bertabus/wifi-contour/) - A contour mapping program of wireless 802.11 signal strength
+* [Wifi-heatmap](https://github.com/beaugunderson/wifi-heatmap/) - generate heatmaps of wifi coverage with Python
+* [wifiscanvisualizer](https://github.com/securitytube/wifiscanvisualizer/) - Wi-Fi Scan Visualizer by Pentester Academy 
+* [Wifi-Signal-Plotter](https://github.com/s7jones/Wifi-Signal-Plotter/) - A Python script for graphing and comparing the WiFi signal strengths between WiFi adaptors in Windows or Linux.
+* [wifivis](https://github.com/mitdbg/wifivis/) - Visualize some mit wifi access point data
+* [wipi](https://github.com/dioh/wipi/) - visualize the WiFi packages that are floating around us all the time.
+* [Wlan-stats](https://github.com/hughobrien/wlan-stats/) - Tool chain using tshark to pull data from pcaps, further process them in python, and graph the output in R. 
+## Localisation
+* [Find-lf](https://github.com/schollz/find-lf/) - Track the location of every Wi-Fi device (📱) in your house using Raspberry Pis and FIND
+* [geowifi](https://github.com/yzfedora/geowifi/) - This is a Geographic WiFi Positioning program written under the Linux.(it is also a WiFi Positioning API written for C language
+* [GrapplingHook](https://github.com/nikseetharaman/GrapplingHook/) - Open Source 802.11 Direction Finder
+* [gtaiad](https://github.com/jedivind/gtaiad/) - Indoor Wi-Fi navigation prototype using triangulation
+* [Openwifimap-api](https://github.com/freifunk/openwifimap-api/) - OpenWiFiMap database and its api 
+* [Python Wi-Fi Positioning System](https://github.com/initbrain/Python-Wi-Fi-Positioning-System/) - Python Wi-Fi Positioning System - Wi-Fi geolocation script using the Google Geolocation API 
+* [pyWPSLocation](https://github.com/akrv/pyWPSLocalisation/) - Using Python for localisation using Google Geolocation API (GGAPI) and WiFi Positioning System (WPS)
+* [whereami](https://github.com/kootenpv/whereami/) - Uses WiFi signals 📶 and machine learning to predict where you are 
+* [Wifi-geolocation](https://github.com/genekogan/wifi_geolocation/) - Get your latitude/longitude via wifi access points
+* [Wifi-localization](https://github.com/utexas-air-fri/wifi_localization/) - Wifi Localization using a map and reference
+* [Wifi-locator](https://github.com/clockfort/wifi-locator/) - Determines physical location of station judging from 802.11 beacons' BSSID/Signal/Noise/Quality information.
+* [Wi-finder](https://github.com/romebop/wi-finder/) - Wi-Fi hotspot finder
+* [Wlan-pos](https://github.com/0x90/wlan-pos/) - Location fingerprinting and triangulation engine for WLAN (IEEE802.11,aka WiFi) environment.
 ## Configuration/setup
 * [802.11p-iw ](https://github.com/CTU-IIG/802.11p-iw/) - Wireless configuration tool (UNIX)
 * [agentapd](https://github.com/mengning/agentapd/) - Agent of WiFi hardware
@@ -298,11 +360,14 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Atheros-AR9271 ](https://github.com/aaronkish/Atheros-AR9271/) - Kernel Extension for AR9271 chipset (Wireless USB Card)
 * [AtherosROMKit ](https://github.com/andyvand/AtherosROMKit/) - Atheros ROM modding and recovery kit 
 * [cac](https://github.com/paulpatras/cac/) - A Centralized Adaptive Control algorithm that optimises the performance of IEEE 802.11 WLANs 
+* [captiveportal](https://github.com/bendemott/captiveportal/) - A captive portal that can be used on most linux distributions. 
 * [cloudap](https://github.com/mengning/cloudap/) - AP Manager in Cloud,AP Hardware on your side
 * [connme](https://github.com/kurokid/connme/) - Client for Hostapd 
+* [crda](https://github.com/mcgrof/crda/) - Central Regulatory Domain Agent
 * [create_ap](https://github.com/oblique/create_ap/) - This script creates a NATed or Bridged WiFi Access Point. 
 * [disable-802.11b-snmp](https://github.com/claymichaels/disable-802.11b-snmp/) - A tool to set 802.11 protocols on thousands of Access Points with SNMP.
 * [Do-wifi](https://github.com/ealexeev/do-wifi/) - Command line tool for scanning and connecting to wifi networks in Linux. 
+* [full_permissive_unlock_ath](https://github.com/doom5/ath9k_ath5k_full_permissive_unlock_all_channels.patch/) - This kernel patch enable all 2GHZ & 5GHZ channels (without restriction) for ath9k & ath5k forced to use buildin world regulatory
 * [FWAP](https://github.com/szehl/FWAP/) - minimal, very lightweight access point implementation
 * [hostapd](https://github.com/nims11/hostapd.py/) - Python script to make using and configuring hostapd easier 
 * [hostapd](https://w1.fi/hostapd/) - User space daemon for access point and authentication servers
@@ -313,7 +378,10 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [hotspotd](https://github.com/prahladyeri/hotspotd/) - Simple daemon to create a wifi hotspot on Linux
 * [IEEE802.11-complete](https://github.com/UtkMSNL/IEEE802.11-complete/) - IEEE802.11 protocol, including PHY, MAC, and rate adaptation approaches upon GNURadio/USRP software-defined radio platform
 * [Linux-wifi-tools](https://github.com/R2dR/linux-wifi-tools/) - A set of Linux command line tools for managing and troubleshooting wifi
+* [monmob](https://github.com/tuter/monmob/) - set of tools to provide monitor mode and raw frame injection for devices using broadcom chipsets bcm4325, bcm4329 and bcm4330
+* [nexmon](https://github.com/seemoo-lab/nexmon/) - The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips that enables Monitor Mode, Frame Injection and much more
 * [PyWiWi](https://github.com/6e726d/PyWiWi/) - Python Windows Wifi
+* [reghack](https://github.com/0x90/wifi-arsenal/tree/master/lowlevel/reghack/) - replaces the regulatory domain rules in the driver binaries with less restrictive ones
 * [RegMon](https://github.com/thuehn/RegMon/) - RegMon is a Atheros WiFi card register monitoring tool for Linux OpenWrt
 * [remoteapd](https://github.com/mengning/remoteapd/) - Remote NL80211-Extent driver for Hostapd 2.0
 * [resfi](https://github.com/resfi/resfi/) - framework supporting creation of RRM functionality in residential WiFi deployments
@@ -336,99 +404,55 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wifi-monitor](https://github.com/dave5623/wifi_monitor/) - 
 * [Wifi-monitor](https://github.com/tadashi/wifi-monitor/) - python, py_libpcap, handover 
 * [WiPy](https://github.com/bliz937/WiPy/) - Sends the WiFi signal strength from multiple clients to a central server. Built for Arch Linux ARM running on Raspberry pi 2
+* [WLAN-Monitoring](https://github.com/sajjanbh/WLAN-Monitoring/) - monitor our vicinity to monitor wireless devices and traffic
 * [wmon](https://github.com/wmon/wmon/) - A Wireless Network Monitor with advanced measurement capabilities. 
 ## Miscellaneous/not sorted :)
-* [80211ping](https://github.com/tillwo/80211ping/) - "Linux command-line tool to ""ping"" 802.11 stations (e.g. any WiFi device)"
-* [80211p_raw](https://github.com/allanmatthew/80211p_raw/) - Raw socket utilities for 802.11p transmission
-* [80211_raw](https://github.com/MinimumLaw/80211_raw/) - Sender and receiver for WiFi (IEEE802.11) network with raw sockets 
+* [80211ping](https://github.com/tillwo/80211ping/) - Linux command-line tool to ping 802.11 stations (e.g. any WiFi device)
 * [acs](https://github.com/mcgrof/acs/) - Automatic Channel Selection utility
-* [Aircrack-db](https://github.com/SaltwaterC/aircrack-db/) - A list of wireless cards tested with the dual-card injection test and in the field
 * [Airfree-wt](https://github.com/rednaks/airfree-wt/) - Wireless Security Toolkit
-* [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon/) - This is a multi-use bash script for Linux systems to audit wireless networks
 * [Ap-notify](https://github.com/doctaweeks/ap-notify/) - An example of using the Linux kernel netlink protocol, specifically nl80211 via libnl/libnl-genl, to catch stations associating/disassociating with an 802.11 AP
 * [ath9k-4w-patch](https://github.com/rboninsegna/ath9k-4W-patch/) - Resources for increasing power of ath9k devices, such as TP-link WN722N
 * [Ath9k-nav](https://github.com/hughobrien/ath9k-nav/) - Linux kernel module to poll the NAV register on Atheros 9k series WLAN cards. 
-* [banjax](https://github.com/0x90/banjax/) - library for low-level programming of IEEE 802.11 wireless network interfaces on the GNU/Linux operating system
 * [bunny](https://github.com/mothran/bunny/) - Bunny is a wireless. meshing, darknet that uses 802.11 to hide its communications 
 * [captiv8](https://github.com/wraith-wireless/captiv8/) - Captive Portal Evasion Tool
-* [captiveportal](https://github.com/bendemott/captiveportal/) - A captive portal that can be used on most linux distributions. 
 * [Connect-wifi](https://github.com/mousam05/connect-wifi/) - dmenu based application for Linux that connects to the strongest open wireless network
 * [Cover-channel](https://github.com/abnarain/covert_channel/) - userland code for creating a covert channel in wireless broadcast medium
-* [crda](https://github.com/mcgrof/crda/) - Central Regulatory Domain Agent
 * [disassociatedWiFi](https://github.com/bradleykirwan/disassociatedWiFi/) - DisassociatedWiFi creates a virtual network interface (using the Linux TUN/TAP device driver) which sends and receives ethernet frames over an 802.11 (WiFi) interface, that has been placed in monitor mode, and supports packet injection.
-* [dot11er](https://github.com/timow/dot11er/) - Some tools for playing with IEEE802.11
 * [FFT_eval](https://github.com/simonwunderlich/FFT_eval/) - aid open source spectrum analyzer development for Qualcomm/Atheros AR92xx and AR93xx based chipsets
-* [Find-lf](https://github.com/schollz/find-lf/) - Track the location of every Wi-Fi device (📱) in your house using Raspberry Pis and FIND
 * [Frame-randomizer](https://github.com/mike-albano/frame-randomizer/) - capture and randomize 802.11 Association Request frames
-* [Frame-utils.js](https://github.com/rhodey/frame-utils.js/) - A collection of utilities for processing streams of 80211 frames and radiotap headers.
 * [FreeWifi](https://github.com/kylemcdonald/FreeWifi/) - How to get free wifi
-* [full_permissive_unlock_ath](https://github.com/doom5/ath9k_ath5k_full_permissive_unlock_all_channels.patch/) - This kernel patch enable all 2GHZ & 5GHZ channels (without restriction) for ath9k & ath5k forced to use buildin world regulatory
-* [geowifi](https://github.com/yzfedora/geowifi/) - This is a Geographic WiFi Positioning program written under the Linux.(it is also a WiFi Positioning API written for C language
-* [Gopacket-80211](https://github.com/dutchcoders/gopacket-80211/) - Extra gopacket layers for Radiotap and 802.11 (has been integrated in Gopacket) 
-* [GrapplingHook](https://github.com/nikseetharaman/GrapplingHook/) - Open Source 802.11 Direction Finder
-* [gtaiad](https://github.com/jedivind/gtaiad/) - Indoor Wi-Fi navigation prototype using triangulation
 * [Haiku-wifi](https://github.com/jedahan/haiku-wifi/) - turn your wireless router's extra radios into a public billboard!
-* [huntpineapples](https://github.com/0x90/wifi-arsenal/tree/master/huntpineapples/) - WiFi Pineapple hunter from DC23
-* [Iitis-generator](https://github.com/iitis/iitis-generator/) - Software for distributed statistical evaluation of IEEE 802.11 wireless networks using Linux mac80211 packet injection facility
-* [itamae](https://github.com/wraith-wireless/itamae/) - 802.11 radiotap and MPDU parser 
-* [KisMac2](https://github.com/IGRSoft/KisMac2/) - free, open source wireless stumbling and security tool for Mac OS X
 * [kismet2earth](https://code.google.com/archive/p/kismet2earth/) - Set of utilities that convert from Kismet logs to Google Earth .kml format
 * [kismeth2earth](https://github.com/andreagrandi/kismeth2earth/) - parsing Kismet logs to get collected data from wireless networks and generate a Google Earth map
 * [Kismet-to-KML](https://github.com/exp/Kismet-to-KML/) - Converts kismet gps log files into kml files
-* [Libairpcap-nl](https://github.com/hbock/libairpcap-nl/) - Implementation of AirPcap library, targetting the NL80211 protocol. 
-* [libmoep](https://github.com/0x90/wifi-arsenal/tree/master/libmoep-1.1/) - allows for frame injection on monitor mode devices with per-frame radiotap options such as TX rate / MCS index and RTS/CTS protection
-* [libuwifi](https://github.com/br101/libuwifi/) - C library for parsing, generating and analyzing Wifi (WLAN 802.11) frames in userspace and related functions
 * [Mac-analyzer](https://github.com/abnarain/mac-analyzer/) - collects cross layer stats from ath9k 
 * [Madwifi-be](https://github.com/paulpatras/madwifi-be/) - modified version of the madwifi driver allowing update of WME parameters for the BE access category
 * [Madwifi-hopping](https://github.com/paulpatras/madwifi-hopping/) - modified version of the Madwifi WLAN driver, that employs power-hopping for packet transmission
 * [make-a-new-mac80211-to-wirelessAP](https://github.com/fhector/make-a-new-mac80211-to-wirelessAP/) - 
-* [MappingWirelessNetworks](https://github.com/jeffThompson/MappingWirelessNetworks/) - Code, data, and (possibly) schematics for recording wireless network data around a city
-* [monmob](https://github.com/tuter/monmob/) - set of tools to provide monitor mode and raw frame injection for devices using broadcom chipsets bcm4325, bcm4329 and bcm4330
 * [netxml2kml](http://www.salecker.org/software/netxml2kml.html/) - Converts netxml files from Kismet Newcore into KML or KMZ files for Google Earth
-* [nexmon](https://github.com/seemoo-lab/nexmon/) - The C-based Firmware Patching Framework for Broadcom/Cypress WiFi Chips that enables Monitor Mode, Frame Injection and much more
-* [Openwifimap-api](https://github.com/freifunk/openwifimap-api/) - OpenWiFiMap database and its api 
-* [Osx-wificleaner](https://github.com/mubix/osx-wificleaner/) - "Cleans out ""open"" wireless connections from OSX machine "
+* [Osx-wificleaner](https://github.com/mubix/osx-wificleaner/) - Cleans out open wireless connections from OSX machine 
 * [Osx-wifi-scan](https://github.com/kornysietsma/osx-wifi-scan/) - Hacky wifi signal scanner for osx 
-* [packetparser](https://github.com/flupzor/packetparser/) - IEEE 802.11 packetparser
 * [parsecaps](https://github.com/sa7mon/parsecaps/) - Parse wpa.cap generated from besside-ng and create individual .caps for each network with a captured handshake. 
-* [pcap2xml](https://github.com/securitytube/pcap2xml/) - Convert 802.11 Packet Traces to XML and SQLITE Format 
 * [pcap80211analyzer](https://github.com/enukane/pcap80211analyzer/) - not-so-smart 802.11 frame pcapng analyzer 
-* [PCS](https://github.com/gvnn3/PCS/) - set of Python modules and objects that make building network protocol code easier for the protocol developer
 * [Probr-analysis](https://github.com/probr/probr-analysis/) - Analysis components for the probr WiFi tracking system
-* [Probr-core](https://github.com/probr/probr-core/) - The core-component for generic WiFi tracking: remote device management, packet capturing, packet storage
-* [Py802.11](https://code.google.com/archive/p/py80211/) - Python code for parsing and working with 80211 packets
-* [py80211](https://github.com/0x90/py80211/) - Suite of libraries for parsing 802.11 packets as well as managing wireless cards and working with 802.11 information
 * [py_DD_WRT_Remote_Mac_Adder](https://github.com/mzhaase/py_DD_WRT_Remote_Mac_Adder/) - Python Script to remotely update mac filterlists of DD-WRT routers with wl or atheros wifi drivers
 * [pykismetkml](https://code.google.com/archive/p/pykismetkml/wikis/pykismetkml.wiki/) - Python script designed to export .gps and .xml files (in < Kismet RC1) to .kml files and .netxml files to .kml files in => Kismet RC2
 * [pykismetstats](https://github.com/0x90/pykismetstats/) - pykismetstats parses NetXML file generated by kismet and write statistics to CSV file.
-* [PyRIC](https://github.com/wraith-wireless/pyric/) - PyRIC (is a Linux only) library providing wireless developers and pentesters the ability to identify, enumerate and manipulate their system's wireless cards programmatically in Python.
-* [PyRIC](https://github.com/wraith-wireless/PyRIC/) - Python wireless library for Linux
-* [PyScapy](https://github.com/ogreworld/PyScapy/) - https://github.com/ogreworld/PyScapy/
-* [python3-wifi](https://github.com/llazzaro/python3-wifi/) - Python WiFi is a Python module that provides read and write access to a wireless network card's capabilities using the Linux Wireless Extensions.
-* [Python-radiotap](https://github.com/bcopeland/python-radiotap/) - Tiny lib for parsing radiotap/802.11 headers in python 
-* [pythonwifi](https://git.tuxfamily.org/pythonwifi/pythonwifi.git) - https://git.tuxfamily.org/pythonwifi/pythonwifi.git
-* [Python Wi-Fi Positioning System](https://github.com/initbrain/Python-Wi-Fi-Positioning-System/) - Python Wi-Fi Positioning System - Wi-Fi geolocation script using the Google Geolocation API 
-* [pyWPSLocation](https://github.com/akrv/pyWPSLocalisation/) - Using Python for localisation using Google Geolocation API (GGAPI) and WiFi Positioning System (WPS)
-* [Qca-swiss-army-knife](https://github.com/mcgrof/qca-swiss-army-knife/) - hosts a set of utilities that we use to debug / help with our driver development
-* [Radioparse](https://github.com/AlexanderSelzer/Radioparse/) - A WiFi protocol parser that can be used with radiotap packets and node-pcap
+* [PyScapy](https://github.com/ogreworld/PyScapy/) - This is a package of using scapy.
 * [react80211](https://github.com/fabriziogiuliano/react80211/) - solution for mitigating the performance impairments of CSMA/CA protocols in multi-hop topologies based on the dynamic adaptation of the contention process experienced by nodes in a wireless network
-* [reghack](https://github.com/0x90/wifi-arsenal/tree/master/lowlevel/reghack/) - replaces the regulatory domain rules in the driver binaries with less restrictive ones
 * [Rollmac](https://github.com/violentshell/Rollmac/) - Automated WiFi limit evasion
 * [Scapy-rssi](https://github.com/azz2k/scapy-rssi/) - Example of how to read RSSI values from wifi packaged using Scapy
-* [setbssid](https://github.com/sheenhx/setbssid/) - A student project in TU Berlin, which is to modify the MAC80211 layer in Linux Kernel
+* [setbssid](https://github.com/sheenhx/setbssid/) - Modify the MAC80211 layer in Linux Kernel
 * [skybluetero](https://code.google.com/archive/p/skybluetero/) - 802.11b/g packet airtime consumption analyzer GUI for Linux
 * [sniffmypackets](https://github.com/catalyst256/sniffMyPackets/) - canari package for pcap file analysis within Maltego
 * [Snoopy-ng](https://github.com/sensepost/snoopy-ng/) - Snoopy v2.0 - modular digital terrestrial tracking framework
-* [speccy](https://github.com/bcopeland/speccy/) - Visualization tool for ath spectral scan
 * [spectrum.py](https://github.com/0x90/wifi-arsenal/blob/master/spectrum.py/) - 
 * [VX](https://github.com/hellais/VX/) - It might be fun to play tricks on somebody trying to crack your WEP protected router
 * [Wbc-utils](https://github.com/skullkey/wbc-utils/) - Couple of hacked together utils for use with the wifibroadcast system by befinitiv
-* [whereami](https://github.com/kootenpv/whereami/) - Uses WiFi signals 📶 and machine learning to predict where you are 
 * [wi5-aggregation](https://github.com/Wi5/wi5-aggregation/) - implementing and testing 802.11 frame aggregation (A-MPDU) 
 * [WiFi-Analyzer](https://github.com/b00sti/WiFi-Analyzer/) - Analyzer 802.11 networks - android app [to refactor] 
 * [wifi_based_population_estimator](https://github.com/siriuxy/wifi_based_population_estimator/) - This is a piece of glueware that sticks up different components from hardware detection to real-time web display.
 * [Wifi-beeper](https://github.com/tillwo/wifi-beeper/) - Linux command-line tool to make WLAN frames audible
-* [Wifi-contour](https://github.com/bertabus/wifi-contour/) - A contour mapping program of wireless 802.11 signal strength
 * [wifidec](https://github.com/twitchyliquid64/wifidec/) - Repository for scriptz playing around with decoding elements of the Wifi stack (mainly Radiotap and 802.11 frames)
 * [wifi_decode](https://github.com/cmpxchg8/wifi_decode/) - Wireless Key Dumper for Windows
 * [WifiDirectLinux](https://github.com/arplote/WifiDirectLinux/) - use p2p with Wifi Direct on Linux
@@ -436,35 +460,20 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wifi-dump-analysis](https://github.com/abnarain/wifi-dump-analysis/) - processing wireless traces from binary files written and read in custom format.
 * [wifi_dump_parser-v3](https://github.com/abnarain/wifi_dump_parser-v3/) - Is the modified parser for the new data set collected using Wifi-dump
 * [wifi_dump-tmpfs](https://github.com/abnarain/wifi_dump-tmpfs/) - dumps wifi data 
-* [Wifi-geolocation](https://github.com/genekogan/wifi_geolocation/) - Get your latitude/longitude via wifi access points
-* [Wifi-heatmap](https://github.com/beaugunderson/wifi-heatmap/) - generate heatmaps of wifi coverage with Python
 * [wifihisicipy](https://github.com/saljam/wifihisicipy/) -  Temporarily runs a wifi hotspot and a 'captive portal' to let you choose a permanent wireless network to connect to.
 * [wifi](https://github.com/rockymeza/wifi/) - [unmaintained] WiFi tools for linux http://pypi.python.org/pypi/wifi
-* [Wifi-localization](https://github.com/utexas-air-fri/wifi_localization/) - Wifi Localization using a map and reference
-* [Wifi-locator](https://github.com/clockfort/wifi-locator/) - Determines physical location of station judging from 802.11 beacons' BSSID/Signal/Noise/Quality information.
-* [Wi-finder](https://github.com/romebop/wi-finder/) - Wi-Fi hotspot finder
 * [wifirxpower](https://github.com/cnlohr/wifirxpower/) - Linux-based WiFi RX Power Grapher
-* [Wifi-scan](https://github.com/bmegli/wifi-scan/) - A nl80211 C/C++ library for monitoring signal strength of WiFi networks
 * [wifiScanMap](https://github.com/mehdilauters/wifiScanMap/) - an other wifi mapping tool
-* [wifiscanvisualizer](https://github.com/securitytube/wifiscanvisualizer/) - Wi-Fi Scan Visualizer by Pentester Academy 
-* [WiFi-scheduling](https://github.com/UtkMSNL/WiFi-scheduling/) - 
-* [Wifi-Signal-Plotter](https://github.com/s7jones/Wifi-Signal-Plotter/) - A Python script for graphing and comparing the WiFi signal strengths between WiFi adaptors in Windows or Linux.
+* [WiFi-scheduling](https://github.com/UtkMSNL/WiFi-scheduling/) - This project evaluates the efficiency and overhead of wireless network scheduling
 * [wifi_statistics](https://github.com/simonwunderlich/wifi_statistics/) - Linux kernel module to gather wifi statistics from peer and non-peer STAs 
 * [wifitracker](https://github.com/DHNishi/wifitracker/) - Raspberry Pi Wifi Tracking API
 * [WifiTrafficAnalyzer](https://github.com/Bob-King/WifiTrafficAnalyzer/) - 
-* [wifivis](https://github.com/mitdbg/wifivis/) - Visualize some mit wifi access point data
 * [wifresti](https://github.com/LionSec/wifresti/) - Find your wireless network password in Windows , Linux and Mac OS
 * [wime](https://github.com/anburocky3/wime/) - Wifi password recover tool for Windows, Linux, Mac.
 * [win32wifi](https://github.com/kedos/win32wifi/) - Python Windows Wifi
-* [wipi](https://github.com/dioh/wipi/) - "visualize the WiFi packages that are ""floating"" around us all the time."
 * [wireless_half-mini](https://github.com/toleda/wireless_half-mini/) - macOS Airport Half Mini (WiFi and Bluetooth)
-* [wireless](https://github.com/joshvillbrandt/wireless/) - dead simple, cross-platform Python library to connect to wireless networks
-* [Wireless IDS Tool](https://github.com/0x90/wifi-arsenal/blob/master/Wireless%20IDS%20Tool.py/) - 
 * [WIRELESSINFO](https://github.com/rgupta9/WIRELESSINFO/) - Extract Important Data From Cisco Wireless Controllers
 * [wireless_RSSI](https://github.com/agnostino/wireless_RSSI/) - 
 * [Wireless-tools](https://github.com/bakerface/wireless-tools/) - Wireless tools for Node.js 
 * [wit](https://github.com/substack/wit/) - command-line wifi manager for linux
-* [WLAN-Monitoring](https://github.com/sajjanbh/WLAN-Monitoring/) - monitor our vicinity to monitor wireless devices and traffic
-* [Wlan-pos](https://github.com/0x90/wlan-pos/) - Location fingerprinting and triangulation engine for WLAN (IEEE802.11,aka WiFi) environment.
-* [Wlan-stats](https://github.com/hughobrien/wlan-stats/) - Tool chain using tshark to pull data from pcaps, further process them in python, and graph the output in R. 
 * [wobs](https://github.com/observ3r/wobs/) - Detects near-by devices such as cell phones, tablets, and laptops. Does this through 802.11, Bluetooth, cell phone protocols, etc.. 
