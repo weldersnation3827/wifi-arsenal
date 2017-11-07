@@ -37,7 +37,7 @@ airscan;https://github.com/trou/airscan/;Wi-Fi scanning utility for the Nintendo
 airspf;https://github.com/davll/airspf/;AirSpoof/Airpwn ??;Attack;;;
 airtraf;https://github.com/saintkepha/airtraf/;Wireless 802.11 network sniffer and analyzer;Attack;Sniff;;
 Airvengers;https://github.com/hiteshchoudhary/Airvengers/;A GUI to pentest wifi Network, based on Aircrack-ng tools;Attack;Encryption;WPA/WPA2;
-airview;https://github.com/Crypt0s/airview/;A python web application compliment to py80211 which allows you to visualize the airwaves around you with your web browser. ;Monitoring;;;
+airview;https://github.com/Crypt0s/airview/;A python web application compliment to py80211 which allows you to visualize the airwaves around you with your web browser. ;Visual;;;
 airxploit;https://github.com/balle/airxploit/;Wireless discovery and exploitation framework written in Python;Attack;;;
 android_packetspammer;https://github.com/bcopeland/android_packetspammer/;Packetspammer sends unencrypted broadcast packets down a mac80211 wireless interface that should be set for Monitor mode;Attack;DoS;;
 Ap-notify;https://github.com/doctaweeks/ap-notify/;An example of using the Linux kernel netlink protocol, specifically nl80211 via libnl/libnl-genl, to catch stations associating/disassociating with an 802.11 AP;Misc;;;
@@ -118,7 +118,7 @@ handshakeharvest;https://github.com/0x90/wifi-arsenal/blob/master/handshakeharve
 HandShaker;https://github.com/d4rkcat/HandShaker/;Detect, capture, crack WPA/2 handshakes, WEP Keys and geotag with Android GPS;Attack;Encryption;WPA/WPA2;
 hcxtools;https://github.com/ZerBea/hcxtools/;Solution for capturing wlan traffic and conversion to hashcat formats (recommended by hashcat) and to John the Ripper;Attack;Encryption;WPA/WPA2;
 Hijacker;https://github.com/chrisk44/Hijacker/;Aircrack, Airodump, Aireplay, MDK3 and Reaver GUI Application for Android;Attack;;;
-horst;https://github.com/br101/horst/;“horst” - lightweight IEEE802.11 wireless LAN analyzer with a text interface;Monitoring;;;
+horst;https://github.com/br101/horst/;Lightweight IEEE802.11 wireless LAN analyzer with a text interface. Its basic function is similar to tcpdump, Wireshark or Kismet, but it's much smaller and shows different, aggregated information which is not easily available from other tools.;Monitoring;;;
 hostapd;https://w1.fi/hostapd/;User space daemon for access point and authentication servers;Config;;;
 hostapd;https://github.com/nims11/hostapd.py/;Python script to make using and configuring hostapd easier ;Config;;;
 Hostapd-karma;https://github.com/xtr4nge/hostapd-karma/;DigiNinja patches to hostapd for rogue access points. ;Attack;RogueAP;;
