@@ -90,6 +90,7 @@ dot11sniffer;https://github.com/DepthDeluxe/dot11sniffer/;Sniffs 802.11 traffic 
 dw;https://github.com/ndyakov/dw/;Small tool for sending 802.11 disassociation and deauthentication packets to specific clients. ;Attack;DoS;;
 eap_detect;https://github.com/rafikMeg/eap_detect/;A simple script using the python library Scapy to detect the 802.1X authentication mechanism;Attack;Sniff;;
 eapeak;https://github.com/securestate/eapeak/;Analysis Suite For EAP Enabled Wireless Networks;Attack;;;
+eapmd5pass;http://www.willhackforsushi.com/?page_id=67;An implementation of an offline dictionary attack against the EAP-MD5 protocol. This utility can be used to audit passwords used for EAP-MD5 networks from wireless packet captures, or by manually specifying the challenge, response and associated authentication information.;Attack;Encryption;;
 Easy-creds;https://github.com/brav0hax/easy-creds/;Leverages tools for stealing credentials during a pen test;Attack;;;
 Eicrog;https://github.com/nosmo/Eircog/;WEP key generator for predictable key weaknesses;Attack;Encryption;WEP;
 EvilAP_Defender;https://github.com/moha99sa/EvilAP_Defender/;Protect your Wireless Network from Evil Access Points;Defend;;;
@@ -194,7 +195,7 @@ ofxSniffer;https://github.com/HalfdanJ/ofxSniffer/;Wrapper for the libtins libra
 OpenCAPWAP;https://github.com/vollero/openCAPWAP/;Open source implementation of the CAPWAP protocol according to RFC 4515 and RFC 4516;;;;
 openrtls;https://github.com/konker/openrtls/;;Attack;RogueAP;;
 Openwifimap-api;https://github.com/freifunk/openwifimap-api/;OpenWiFiMap database and its api ;Location;;;
-Openwips-ng;http://www.openwips-ng.org/;Open source and modular Wireless IPS (Intrusion Prevention System);Defend;;;
+Openwips-ng;https://github.com/aircrack-ng/OpenWIPS-ng;Open source and modular Wireless IPS (Intrusion Prevention System);Defend;;;
 Osx-wifi-scan;https://github.com/kornysietsma/osx-wifi-scan/;Hacky wifi signal scanner for osx ;Misc;;;
 Osx-wificleaner;https://github.com/mubix/osx-wificleaner/;Cleans out open wireless connections from OSX machine ;Misc;;;
 packetinjector;https://github.com/juzna/packet-injector/;Packet analyzer and injector, written in JavaScript;Attack;Injection;;
@@ -341,6 +342,7 @@ WiFi-Rifle;https://github.com/sensepost/WiFi-Rifle/;Creating a wireless rifle de
 Wifi-scan;https://bitbucket.org/edkeeble/wifi-scan/;Short python script scans for probe requests from whitelisted WiFi clients;Attack;Sniff;;
 Wifi-scan;https://github.com/bmegli/wifi-scan/;A nl80211 C/C++ library for monitoring signal strength of WiFi networks;Lib;;;
 WiFi-scheduling;https://github.com/UtkMSNL/WiFi-scheduling/;This project evaluates the efficiency and overhead of wireless network scheduling;Misc;;;
+wifi-scripts;https://github.com/0x90/wifi-scripts;Misc scripts and tools for WiFi;Lib;;;
 Wifi-Signal-Plotter;https://github.com/s7jones/Wifi-Signal-Plotter/;A Python script for graphing and comparing the WiFi signal strengths between WiFi adaptors in Windows or Linux.;Visual;;;
 Wifi-test;https://github.com/0x90/wifi-arsenal/tree/master/wifi-test/;;;;;
 WifiAttack;https://github.com/AbbySec/WifiAttack/;;Attack;;;
@@ -416,6 +418,7 @@ wps;https://github.com/devttys0/wps/;WPS related utilities ;Attack;Encryption;WP
 Wps-scripts;https://github.com/0x90/wps-scripts/;WPS hacking scripts;Attack;Encryption;WPS;
 Wps-Ultimate-Cracker;https://github.com/younextvictim/Wps-Ultimate-Cracker/;This script will help help you to get the most of router in morocco by using pixiewps , reaver , aircrack-ng ,wifite ;Attack;Encryption;WPS;
 wpscrack;https://github.com/ml31415/wpscrack/;Continuation of wpscrack originally written by Stefan Viehböck;Attack;Encryption;WPS;
+WPSIG;https://www.coresecurity.com/corelabs-research/open-source-tools/wpsig;Simple tool (written in Python) that does information gathering using WPS information elements.;Attack;Encryption;WPS;
 wpsoffline;https://bitbucket.org/dudux/wpsoffline/;PoC for routers vulnerable with WPS and deficiencies in their PRNG state;Attack;Encryption;WPS;
 wraith;https://github.com/wraith-wireless/wraith/;Wireless Reconnaissance And Intelligent Target Harvesting;Defend;;;
 wspy;https://github.com/Nan-Do/wspy/;Python tool to create a wireless ids it detects which clients are connected to a network to allow the creation of usage patterns of a netowrk by the clients;Defend;;;

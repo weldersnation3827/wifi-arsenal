@@ -134,11 +134,13 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Reaver-wps](https://github.com/gabrielrcouto/reaver-wps/) - Brute force attack against Wifi Protected Setup 
 * [wpscrack](https://github.com/ml31415/wpscrack/) - Continuation of wpscrack originally written by Stefan Viehböck
 * [wps](https://github.com/devttys0/wps/) - WPS related utilities 
+* [WPSIG](https://www.coresecurity.com/corelabs-research/open-source-tools/wpsig) - Simple tool (written in Python) that does information gathering using WPS information elements.
 * [wpsoffline](https://bitbucket.org/dudux/wpsoffline/) - PoC for routers vulnerable with WPS and deficiencies in their PRNG state
 * [Wps-scripts](https://github.com/0x90/wps-scripts/) - WPS hacking scripts
 * [Wps-Ultimate-Cracker](https://github.com/younextvictim/Wps-Ultimate-Cracker/) - This script will help help you to get the most of router in morocco by using pixiewps , reaver , aircrack-ng ,wifite 
 #### Others
 * [apbleed](https://github.com/vanhoefm/apbleed/) - Allows you to use existing heartbleed tools to test the RADIUS server
+* [eapmd5pass](http://www.willhackforsushi.com/?page_id=67) - An implementation of an offline dictionary attack against the EAP-MD5 protocol. This utility can be used to audit passwords used for EAP-MD5 networks from wireless packet captures, or by manually specifying the challenge, response and associated authentication information.
 * [haircrack](https://github.com/AdamKnube/haircrack/) - Automated aircrack/reaver/pyrit (An interface for aircrack/reaver/pyrit written in python. The interface itself may never get finished.)
 * [IKECrack](http://ikecrack.sourceforge.net/) - IKE/IPSec authentication crack tool. This tool is designed to bruteforce or dictionary attack the key/password used with Pre-Shared-Key [PSK] IKE authentication.
 * [Wpe-parse](https://github.com/sa7mon/wpe-parse/) - This is a simple parsing script to convert output from hostapd-wpe (which makes John the Ripper-formatted logs) to Hashcat format. 
@@ -295,7 +297,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [kismetclient](https://github.com/PaulMcMillan/kismetclient/) - A Python client for the Kismet server protocol
 * [kismet](https://github.com/kismetwireless/kismet/) - Wireless network detector, sniffer, and intrusion detection system
 * [kismon](https://github.com/Kismon/kismon/) - A GUI client for kismet
-* [Openwips-ng](http://www.openwips-ng.org/) - Open source and modular Wireless IPS (Intrusion Prevention System)
+* [Openwips-ng](https://github.com/aircrack-ng/OpenWIPS-ng) - Open source and modular Wireless IPS (Intrusion Prevention System)
 * [Python-kismet](https://code.google.com/archive/p/python-kismet/) - Python threaded listener to Kismet broadcasts
 * [RogueDetection](https://github.com/baggybin/RogueDetection/) - Rogue Access Point Detection and WIDS
 * [waidps](https://github.com/SYWorks/waidps/) - Wireless Auditing, Intrusion Detection & Prevention System
@@ -330,8 +332,10 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Radioparse](https://github.com/AlexanderSelzer/Radioparse/) - A WiFi protocol parser that can be used with radiotap packets and node-pcap
 * [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library
 * [Wifi-scan](https://github.com/bmegli/wifi-scan/) - A nl80211 C/C++ library for monitoring signal strength of WiFi networks
+* [wifi-scripts](https://github.com/0x90/wifi-scripts) - Misc scripts and tools for WiFi
 * [wireless](https://github.com/joshvillbrandt/wireless/) - Dead simple, cross-platform Python library to connect to wireless networks
 ## Visualization
+* [airview](https://github.com/Crypt0s/airview/) - A python web application compliment to py80211 which allows you to visualize the airwaves around you with your web browser. 
 * [speccy](https://github.com/bcopeland/speccy/) - Visualization tool for ath spectral scan
 * [Wifi-contour](https://github.com/bertabus/wifi-contour/) - A contour mapping program of wireless 802.11 signal strength
 * [Wifi-heatmap](https://github.com/beaugunderson/wifi-heatmap/) - Generate heatmaps of wifi coverage with Python
@@ -394,9 +398,8 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wifi-pentesting](https://github.com/baldwmic/wifi-pentesting/) - Wifi Penetration Testing of Home Network
 * [WirelessConfig](https://github.com/acidprime/WirelessConfig/) - A 802.1x Python wireless configuration tool with Cocoa wrappers
 ## Monitoring
-* [airview](https://github.com/Crypt0s/airview/) - A python web application compliment to py80211 which allows you to visualize the airwaves around you with your web browser. 
 * [como](https://github.com/JackieXie168/como/) - CoMo is a passive monitoring system that supports arbitrary real time traffic queries
-* [horst](https://github.com/br101/horst/) - “horst” - lightweight IEEE802.11 wireless LAN analyzer with a text interface
+* [horst](https://github.com/br101/horst/) - Lightweight IEEE802.11 wireless LAN analyzer with a text interface. Its basic function is similar to tcpdump, Wireshark or Kismet, but it's much smaller and shows different, aggregated information which is not easily available from other tools.
 * [scapybase](https://github.com/jahrome/scapybase/) - 802.11 monitor AP based on scapy
 * [Scapy-survey](https://github.com/tuomasb/scapy-survey/) - 802.11 signal strength logger using Scapy
 * [sigmon](https://github.com/tecknowledge/sigmon/) - Modular WiFi/RF Monitoring and Analysis Implementation
