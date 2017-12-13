@@ -50,6 +50,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [kismet](https://github.com/kismetwireless/kismet/) - Wireless network detector, sniffer, and intrusion detection system
 * [mdk3_6.1](https://github.com/ytisf/mdk3_6.1/) - A fork and modification of the original MDK3 
 * [pyrit](https://github.com/JPaulMora/Pyrit/) - The famous WPA precomputed cracker, Migrated from Google
+* [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library
 * [waidps](https://github.com/SYWorks/waidps/) - Wireless Auditing, Intrusion Detection & Prevention System
 * [WiFi-Pumpkin](https://github.com/P0cL4bs/WiFi-Pumpkin/) - Framework for Rogue Wi-Fi Access Point Attack
 * [Wireless-ids](https://github.com/SYWorks/wireless-ids/) - Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets
@@ -321,10 +322,8 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [pcap2xml](https://github.com/securitytube/pcap2xml/) - Convert 802.11 Packet Traces to XML and SQLITE Format 
 * [PCS](https://github.com/gvnn3/PCS/) - Set of Python modules and objects that make building network protocol code easier for the protocol developer
 * [Probr-core](https://github.com/probr/probr-core/) - The core-component for generic WiFi tracking: remote device management, packet capturing, packet storage
-* [Py802.11](https://code.google.com/archive/p/py80211/) - Python code for parsing and working with 80211 packets
 * [py80211](https://github.com/0x90/py80211/) - Suite of libraries for parsing 802.11 packets as well as managing wireless cards and working with 802.11 information
-* [PyRIC](https://github.com/wraith-wireless/pyric/) - PyRIC (is a Linux only) library providing wireless developers and pentesters the ability to identify, enumerate and manipulate their system's wireless cards programmatically in Python.
-* [PyRIC](https://github.com/wraith-wireless/PyRIC/) - Python wireless library for Linux
+* [PyRIC](https://github.com/wraith-wireless/PyRIC/) - PyRIC (is a Linux only) library providing wireless developers and pentesters the ability to identify, enumerate and manipulate their system's wireless cards programmatically in Python.
 * [python3-wifi](https://github.com/llazzaro/python3-wifi/) - Python WiFi is a Python module that provides read and write access to a wireless network card's capabilities using the Linux Wireless Extensions.
 * [Python-radiotap](https://github.com/bcopeland/python-radiotap/) - Tiny lib for parsing radiotap/802.11 headers in python 
 * [python-wifi](https://pypi.python.org/pypi/python-wifi/) - Python WiFi is a Python module that provides read and write access to a wireless network card's capabilities using the Linux Wireless Extensions.
