@@ -7,7 +7,7 @@ This project is based on the great work of [0x90/wifi-arsenal](https://github.co
 
 As I had to go through all the projects anyway I tried to fix this limitations and created a csv file which can be transformed into a README.md easily (shell-script inlcuded). And here it is. I hope it will help somebody. The categorization is not always easy/accurate (going through 500 projects was exhausting, concentration was gone eventually!). Please feel free to fix or add things and submit a pull request!
 
-Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and were not added here yet.
+Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/techge/wifi-arsenal/compare/collection-base...0x90:master) and were not added here yet.
 ## Table of Contents
 
 * [General WiFi Information](#general-wifi-information)
@@ -74,6 +74,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [wificurse](https://github.com/0x90/wifi-arsenal/tree/master/wificurse/) - WiFi DoS attack tool created for educational purposes only. It works only in Linux and requires wireless card drivers capable of injecting packets in wireless networks
 * [WifiDeauth](https://github.com/Revimal/WifiDeauth/) - A lightweight Wi-Fi auto deauthentication attack tool (libtins/C++)
 * [wifijammer](https://github.com/DanMcInerney/wifijammer/) - Continuously jam all wifi clients/routers
+* [wifikicker](https://github.com/viluhaxor/wifikicker) - A tool to kick devices out of your network and enjoy all the bandwidth for yourself. It allows you to select specific or all devices and ARP spoofs them off your local area network
 * [WiFi-Rifle](https://github.com/sensepost/WiFi-Rifle/) - Creating a wireless rifle de-authentication gun, which utilized a yagi antenna and a Raspberry Pi
 * [wirelessjammer](https://github.com/phr34k0/wirelessjammer/) - Continuously jam all wifi clients and access points within range
 * [zizzania](https://github.com/cyrus-and/zizzania/) - Automated DeAuth attack
@@ -149,7 +150,6 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Aggr-inject](https://github.com/rpp0/aggr-inject/) - Remote frame injection PoC by exploiting a standard compliant A-MPDU aggregation vulnerability in 802.11n networks. 
 * [Aircrack-db](https://github.com/SaltwaterC/aircrack-db/) - A list of wireless cards tested with the dual-card injection test and in the field
 * [airown](https://github.com/sh0/airown/) - Packet injection tool
-* [airpwn](https://github.com/M0Rf30/airpwn/) - A generic packet injection tool for 802.11 networks.
 * [Airpwn-ng](https://github.com/ICSec/airpwn-ng/) - New and improved version of airpwn
 * [Iitis-generator](https://github.com/iitis/iitis-generator/) - Software for distributed statistical evaluation of IEEE 802.11 wireless networks using Linux mac80211 packet injection facility
 * [libfcap](https://github.com/teddyyy/libfcap/) - Library for manipulate 802.11 frame in monitor mode
@@ -406,6 +406,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Wifi-linux](https://github.com/dixel/wifi-linux/) - Simple python script to monitor access point signal strength.
 * [Wifi-monitor](https://github.com/dave5623/wifi_monitor/) - 
 * [Wifi-monitor](https://github.com/tadashi/wifi-monitor/) - Python, py_libpcap, handover 
+* [WiFiStat](https://github.com/MarkLalor/WiFiStat) - Python tool to assess WiFi connection throughput and latency
 * [WiPy](https://github.com/bliz937/WiPy/) - Sends the WiFi signal strength from multiple clients to a central server. Built for Arch Linux ARM running on Raspberry pi 2
 * [WLAN-Monitoring](https://github.com/sajjanbh/WLAN-Monitoring/) - Monitor our vicinity to monitor wireless devices and traffic
 * [wmon](https://github.com/wmon/wmon/) - A Wireless Network Monitor with advanced measurement capabilities. 
@@ -479,4 +480,4 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [wireless_RSSI](https://github.com/agnostino/wireless_RSSI/) - 
 * [Wireless-tools](https://github.com/bakerface/wireless-tools/) - Wireless tools for Node.js 
 * [wit](https://github.com/substack/wit/) - Command-line wifi manager for linux
-* [wobs](https://github.com/observ3r/wobs/) - Detects near-by devices such as cell phones, tablets, and laptops. Does this through 802.11, Bluetooth, cell phone protocols, etc.. 
+* [wobs](https://github.com/observ3r/wobs/) - Detects near-by devices such as cell phones, tablets, and laptops. Does this through 802.11, Bluetooth, cell phone protocols, etc…
