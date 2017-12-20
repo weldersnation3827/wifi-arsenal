@@ -31,7 +31,6 @@ airoscriptng;https://github.com/wi-fi-analyzer/airoscriptng/;Airoscript-ng pytho
 airown;https://github.com/sh0/airown/;Packet injection tool;Attack;Injection;;
 AirPirate;https://github.com/gat3way/AirPirate/;Android 802.11 pentesting tool ;Attack;;;
 Airport-sniffer;https://github.com/zhovner/airport-sniffer/;Very simple Wi-Fi sniffer and dump parser for built-in macbook AirPort Extreme card. Only native MacOS tools used. ;Attack;Sniff;;
-airpwn;https://github.com/M0Rf30/airpwn/;A generic packet injection tool for 802.11 networks.;Attack;Injection;;
 Airpwn-ng;https://github.com/ICSec/airpwn-ng/;New and improved version of airpwn;Attack;Injection;;
 airscan;https://github.com/trou/airscan/;Wi-Fi scanning utility for the Nintendo DS;InfoGath;;;
 airspf;https://github.com/davll/airspf/;AirSpoof/Airpwn ??;Attack;;;
@@ -353,6 +352,7 @@ Wifidog-gateway;https://github.com/wifidog/wifidog-gateway/;Repository for the w
 wifihisicipy;https://github.com/saljam/wifihisicipy/; Temporarily runs a wifi hotspot and a 'captive portal' to let you choose a permanent wireless network to connect to.;Misc;;;
 wifijamMac;https://github.com/rajkotraja/wifiJamMac/;Allows you to select one or more nearby wireless networks, thereupon presenting a list of clients which are currently active on the network(s);Attack;Sniff;;
 wifijammer;https://github.com/DanMcInerney/wifijammer/;Continuously jam all wifi clients/routers;Attack;DoS;;
+wifikicker;https://github.com/viluhaxor/wifikicker;A tool to kick devices out of your network and enjoy all the bandwidth for yourself. It allows you to select specific or all devices and ARP spoofs them off your local area network;Attack;DoS;;
 Wifimon;https://github.com/Wifimon/Wifimon/;Wi-fi 802.11 Beacon Frame sniffer;Attack;Sniff;;
 wifimonster;https://github.com/flankerhqd/wifimonster/;Wifi sniffing and hijacking tool;Attack;;;
 wifiphisher;https://github.com/wifiphisher/wifiphisher/;Automated victim-customized phishing attacks against Wi-Fi clients;Attack;RogueAP;;
@@ -362,6 +362,7 @@ wifiScanMap;https://github.com/mehdilauters/wifiScanMap/;An other wifi mapping t
 wifiscanvisualizer;https://github.com/securitytube/wifiscanvisualizer/;Wi-Fi Scan Visualizer by Pentester Academy ;Visual;;;
 wifisoftap;https://github.com/coolshou/wifisoftap/;;Attack;RogueAP;;
 wifispy;https://github.com/Geovation/wifispy/;Sniff Wifi traffic, log device addresses;Attack;Sniff;;
+WiFiStat;https://github.com/MarkLalor/WiFiStat;Python tool to assess WiFi connection throughput and latency;Monitoring;;;
 wifitap;https://github.com/viscousliquid/wifitap/;WiFi injection tool through tun/tap device;Attack;Injection;;
 wifite;https://github.com/derv82/wifite/;An automated wireless attack tool;Attack;Encryption;WPA/WPA2;
 Wifite-mod-pixiewps;https://github.com/aanarchyy/wifite-mod-pixiewps/;Wifite with PixieWPS support;Attack;Encryption;WPA/WPA2;
@@ -402,7 +403,7 @@ Wlan-stats;https://github.com/hughobrien/wlan-stats/;Tool chain using tshark to 
 wlandecrypter;https://github.com/wi-fi-analyzer/wlandecrypter/;Dictionary attack (spanish);Attack;Encryption;WPA/WPA2;
 wmd;https://github.com/securestate/wmd/;Simple solution for the detection and location of Rogue Access Points.;Defend;;;
 wmon;https://github.com/wmon/wmon/;A Wireless Network Monitor with advanced measurement capabilities. ;Monitoring;;;
-wobs;https://github.com/observ3r/wobs/;Detects near-by devices such as cell phones, tablets, and laptops. Does this through 802.11, Bluetooth, cell phone protocols, etc.. ;Misc;;;
+wobs;https://github.com/observ3r/wobs/;Detects near-by devices such as cell phones, tablets, and laptops. Does this through 802.11, Bluetooth, cell phone protocols, etc…;Misc;;;
 WPA_DECRYPTION_MPI;https://github.com/shagrath89m/WPA_DECRYPTION_MPI/;WPA/WPA2 for cluster processing;Attack;Encryption;WPA/WPA2;
 Wpa-autopwn;https://github.com/vnik5287/wpa-autopwn/;WPA/WPA2 autopwn script that parses captured handshakes and sends them to the Crackq;Attack;Encryption;WPA/WPA2;
 Wpa-bruteforcer;https://github.com/SYWorks/wpa-bruteforcer/;Attacking WPA/WPA encrypted access point without client. ;Attack;Encryption;WPA/WPA2;
