@@ -100,7 +100,7 @@ echo '* there is no description of projects so that you have to click every bad-
 echo >> README.md
 echo 'As I had to go through all the projects anyway I tried to fix this limitations and created a csv file which can be transformed into a README.md easily (shell-script inlcuded). And here it is. I hope it will help somebody. The categorization is not always easy/accurate (going through 500 projects was exhausting, concentration was gone eventually!). Please feel free to fix or add things and submit a pull request!' >> README.md
 echo >> README.md
-echo 'Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/0x90/wifi-arsenal/compare/master...techge:collection-base) and were not added here yet.' >> README.md
+echo 'Keep track of [changes made in the original 0x90/wifi-arsenal repo](https://github.com/techge/wifi-arsenal/compare/collection-base...0x90:master) and were not added here yet.' >> README.md
 
 echo '## Table of Contents' >> README.md
 
