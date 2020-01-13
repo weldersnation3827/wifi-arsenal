@@ -56,6 +56,7 @@ Awesome-wifi-security;https://github.com/edelahozuah/awesome-wifi-security/;A co
 badkarma;https://github.com/atechdad/badkarma/;BadKarma is a simple python script used to detect and disrupt rouge access points/honeypots using the karma attack such as the wifi pineapple;Defend;;;
 banjax;https://github.com/0x90/banjax/;Library for low-level programming of IEEE 802.11 wireless network interfaces on the GNU/Linux operating system;Lib;;;
 basiciw;https://github.com/enkore/basiciw/;Retrieve information such as ESSID or signal quality from wireless cards (Python module);InfoGath;;;
+bettercap;https://www.bettercap.org/;bettercap is the Swiss Army knife for WiFi, Bluetooth Low Energy, wireless HID hijacking and Ethernet networks reconnaissance and MITM attacks;Attack;Sniff;;Note
 BoopSuite;https://github.com/MisterBianco/BoopSuite/;A Suite of Tools written in Python for wireless auditing and security testing.;Attack;;;
 bully;https://github.com/aanarchyy/bully/;New implementation of the WPS brute force attack, written in C;Attack;Encryption;WPS;
 bunny;https://github.com/mothran/bunny/;Bunny is a wireless. meshing, darknet that uses 802.11 to hide its communications ;Misc;;;
@@ -257,6 +258,7 @@ probesniffer;https://github.com/xdavidhu/probeSniffer/;A tool for sniffing unenc
 Probr-analysis;https://github.com/probr/probr-analysis/;Analysis components for the probr WiFi tracking system;Misc;;;
 Probr-core;https://github.com/probr/probr-core/;The core-component for generic WiFi tracking: remote device management, packet capturing, packet storage;Lib;;;
 PSKracker;https://github.com/soxrok2212/PSKracker;An all-in-one WPA/WPS toolkit;Attack;Encryption;WPS;
+Pwnagotchi;https://pwnagotchi.ai/;Pwnagotchi is an A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either through passive sniffing or by performing deauthentication and association attacks);Attack;;;Note
 PwnPi;https://sourceforge.net/projects/pwnpi/;A Linux-based penetration testing dropbox distribution for the Raspberry Pi.;;;;
 PwnSTAR;https://github.com/SilverFoxx/PwnSTAR/;PwnSTAR (Pwn SofT-Ap scRipt) - for all your fake-AP needs;Attack;RogueAP;;
 py_DD_WRT_Remote_Mac_Adder;https://github.com/mzhaase/py_DD_WRT_Remote_Mac_Adder/;Python Script to remotely update mac filterlists of DD-WRT routers with wl or atheros wifi drivers;Misc;;;

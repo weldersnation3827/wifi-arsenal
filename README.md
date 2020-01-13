@@ -47,10 +47,12 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Noteworthy Tools of Different Categories
 * [Aircrack-ng](https://github.com/aircrack-ng/aircrack-ng/) - WiFi security auditing tools suite
 * [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon/) - This is a multi-use bash script for Linux systems to audit wireless networks
+* [bettercap](https://www.bettercap.org/) - bettercap is the Swiss Army knife for WiFi, Bluetooth Low Energy, wireless HID hijacking and Ethernet networks reconnaissance and MITM attacks
 * [Fern-wifi-cracker](https://github.com/savio-code/fern-wifi-cracker/) - Crack and recover WEP/WPA/WPS keys and also run other network based attacks on wireless or ethernet based networks
 * [karma](https://github.com/atimorin/karma/) - KARMA Attacks Radioed Machines Automatically (KARMA)
 * [kismet](https://github.com/kismetwireless/kismet/) - Wireless network detector, sniffer, and intrusion detection system
 * [mdk3_6.1](https://github.com/ytisf/mdk3_6.1/) - A fork and modification of the original MDK3 
+* [Pwnagotchi](https://pwnagotchi.ai/) - Pwnagotchi is an A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either through passive sniffing or by performing deauthentication and association attacks)
 * [pyrit](https://github.com/JPaulMora/Pyrit/) - The famous WPA precomputed cracker, Migrated from Google
 * [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library
 * [waidps](https://github.com/SYWorks/waidps/) - Wireless Auditing, Intrusion Detection & Prevention System
@@ -237,6 +239,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [Airport-sniffer](https://github.com/zhovner/airport-sniffer/) - Very simple Wi-Fi sniffer and dump parser for built-in macbook AirPort Extreme card. Only native MacOS tools used. 
 * [airpydump](https://github.com/hash3liZer/airpydump) - Analyze Wireless Packets on the fly. Currently supporting three working Modes (Reader, Live, Stealth)
 * [airtraf](https://github.com/saintkepha/airtraf/) - Wireless 802.11 network sniffer and analyzer
+* [bettercap](https://www.bettercap.org/) - bettercap is the Swiss Army knife for WiFi, Bluetooth Low Energy, wireless HID hijacking and Ethernet networks reconnaissance and MITM attacks
 * [darm](https://github.com/eldraco/darm/) - Intelligent network sniffer for the masses
 * [datasamalen](https://github.com/4ZM/datasamalen/) - Pick up wifi-probe requests
 * [DeSniffer](https://github.com/wirelesshack/DeSniffer/) - 802.11 wireless sniffer
@@ -304,6 +307,7 @@ TOC created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 * [LANs.py](https://github.com/DanMcInerney/LANs.py/) - Inject code, jam wifi, and spy on wifi users
 * [Null-packet-wifi-promt](https://bitbucket.org/edkeeble/null-packet-wifi-prompt/) - Simple script to prompt responses from wireless devices with a known MAC address
 * [PiWAT](https://github.com/Crypt0s/PiWAT/) - Wireless Attack Toolkit
+* [Pwnagotchi](https://pwnagotchi.ai/) - Pwnagotchi is an A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either through passive sniffing or by performing deauthentication and association attacks)
 * [Python-wireless-attacks](https://github.com/jordan-wright/python-wireless-attacks/) - Wireless Attacks in Python (Based on blog series)
 * [Secpi](https://github.com/nrohsak/Secpi/) - Python based script for wifi pentesting on the RasPi
 * [Sly-fi](https://github.com/sinistermachine/sly-fi/) - Wifi pwnage automation
