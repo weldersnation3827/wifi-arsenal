@@ -66,7 +66,7 @@ grep ';Attack;;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 echo '## Information Gathering' >> README_tmp.md
 grep ';InfoGath;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 
-echo '## Defence/Detection' >> README_tmp.md
+echo '## Defense/Detection' >> README_tmp.md
 grep ';Defend;' wifi-arsenal.csv_tmp | sort >> README_tmp.md
 
 echo '## Libraries/General Purpose Tools' >> README_tmp.md

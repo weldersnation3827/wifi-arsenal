@@ -90,6 +90,7 @@ dot11sniffer;https://github.com/DepthDeluxe/dot11sniffer/;Sniffs 802.11 traffic 
 dw;https://github.com/ndyakov/dw/;Small tool for sending 802.11 disassociation and deauthentication packets to specific clients. ;Attack;DoS;;
 eap_detect;https://github.com/rafikMeg/eap_detect/;A simple script using the python library Scapy to detect the 802.1X authentication mechanism;Attack;Sniff;;
 eapeak;https://github.com/securestate/eapeak/;Analysis Suite For EAP Enabled Wireless Networks;Attack;;;
+eaphammer;https://github.com/s0lst1c3/eaphammer;Targeted evil twin attacks against WPA2-Enterprise networks. Indirect wireless pivots using hostile portal attacks. ;Attack;RogueAP;;
 eapmd5pass;http://www.willhackforsushi.com/?page_id=67;An implementation of an offline dictionary attack against the EAP-MD5 protocol. This utility can be used to audit passwords used for EAP-MD5 networks from wireless packet captures, or by manually specifying the challenge, response and associated authentication information.;Attack;Encryption;;
 Easy-creds;https://github.com/brav0hax/easy-creds/;Leverages tools for stealing credentials during a pen test;Attack;;;
 Eicrog;https://github.com/nosmo/Eircog/;WEP key generator for predictable key weaknesses;Attack;Encryption;WEP;
@@ -144,7 +145,7 @@ itamae;https://github.com/wraith-wireless/itamae/;802.11 radiotap and MPDU parse
 JamWiFi;https://github.com/unixpickle/JamWiFi/;A GUI, easy to use WiFi network jammer for Mac OS X;Attack;DoS;;
 karma;https://github.com/atimorin/karma/;KARMA Attacks Radioed Machines Automatically (KARMA);Attack;RogueAP;;Note
 killosx;https://github.com/d4rkcat/killosx/;Use the Apple CoreText exploit (CVE-2012-3716) and launch an AP to affect all devices within wifi range ;Attack;;;
-KisMac2;https://github.com/IGRSoft/KisMac2/;Free, open source wireless stumbling and security tool for Mac OS X;Defend;;;
+KisMac2;https://github.com/IGRSoft/KisMac2/;Free, open source wireless stumbling and security tool for Mac OS X;Attack;;;
 kismet;https://github.com/kismetwireless/kismet/;Wireless network detector, sniffer, and intrusion detection system;Defend;;;Note
 kismet-deauth-wpa2-handshake-plugin;https://github.com/ph4r05/kismet-deauth-wpa2-handshake-plugin/;Python plugin for Kismet to perform deauthentication to collect WPA2 handshakes;Attack;Encryption;WPA/WPA2;
 Kismet-to-KML;https://github.com/exp/Kismet-to-KML/;Converts kismet gps log files into kml files;Misc;;;
@@ -433,7 +434,7 @@ Wps-Ultimate-Cracker;https://github.com/younextvictim/Wps-Ultimate-Cracker/;This
 wpscrack;https://github.com/ml31415/wpscrack/;Continuation of wpscrack originally written by Stefan Viehböck;Attack;Encryption;WPS;
 WPSIG;https://www.coresecurity.com/corelabs-research/open-source-tools/wpsig;Simple tool (written in Python) that does information gathering using WPS information elements.;Attack;Encryption;WPS;
 wpsoffline;https://bitbucket.org/dudux/wpsoffline/;PoC for routers vulnerable with WPS and deficiencies in their PRNG state;Attack;Encryption;WPS;
-wraith;https://github.com/wraith-wireless/wraith/;Wireless Reconnaissance And Intelligent Target Harvesting;Defend;;;
+wraith;https://github.com/wraith-wireless/wraith/;Wireless Reconnaissance And Intelligent Target Harvesting;InfoGath;;;
 wspy;https://github.com/Nan-Do/wspy/;Python tool to create a wireless ids it detects which clients are connected to a network to allow the creation of usage patterns of a netowrk by the clients;Defend;;;
 wtf;https://github.com/cozybit/wtf/;Wireless Test Framework. Collection of test suites for validating various wifi functionality on various wifi devices.;Attack;;;
 zarp;https://github.com/hatRiot/zarp/;Network attack tool centered around the exploitation of local networks;Attack;;;Note
